@@ -9,7 +9,7 @@ We would need to create 2 scripts in your server.
 
 4. Second there is a shell script qc.sh. This shell script runs the python script api_prom_metrics.py and outputs into a text file in /etc/prometheus_scripts/textfile_collector/service_qc.prom for node_exporter to grab metrics from.
 
-5. The cronjob runs qc.sh script every 5 mins. This script will run the python api_prom_metrics.py script and output a text file.
+5. The cronjob runs qc.sh script every 5 mins. 
 
 6. This goes in the crontab
 7. */5 * * * * /etc/prometheus_scripts/qcstats/qc.sh 
