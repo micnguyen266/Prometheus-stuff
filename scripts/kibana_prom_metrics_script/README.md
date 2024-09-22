@@ -39,3 +39,7 @@ The Python script named kibana_prom_metrics.py sends and receives the data. The 
 4. Assuming Node exporter is installed in the server and uses port 9100 which Prometheus scrapes on. Node exporter will collect custom metrics from this path: 
 5. /etc/sysconfig/node_exporter 
 6. OPTIONS="--collector.textfile.directory=/etc/prometheus_scripts/textfile_collector"
+
+### Author
+
+Michael Nguyen https://github.com/micnguyen266
